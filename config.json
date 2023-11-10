@@ -1,0 +1,9 @@
+{
+    "prefix" : "?",
+    "theme" : {
+        "profile-embed-color": "0xffa500",
+        "scp-rank-embed-color": "0xff3232",
+        "scp-all-embed-color": "0x5B2C6F",
+        "scp-embed-color": "0xfbe63b"
+    }
+}
