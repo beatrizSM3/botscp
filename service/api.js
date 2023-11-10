@@ -5,7 +5,7 @@ dotenv.config();
 
 const api = axios.create(
     {
-        baseURL: process.env.API_URL_TEST,
+        baseURL: process.env.API_URL_PROD,
         headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
