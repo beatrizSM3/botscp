@@ -1,0 +1,13 @@
+{
+    "no_image":"https://upload.wikimedia.org/wikipedia/commons/7/75/No_image_available.png",
+    "warning":"https://cdn.discordapp.com/attachments/750748401020305551/940048214164406292/warning.jpg",
+    "classes": {
+        "Safe":"<:safe:940042275118022657>",
+        "Euclid":"<:euclid:940042220935979028>",
+        "Keter":"<:keter:940042238342332466>",
+        "Thaumiel":"<:thaumiel:940042295342944288>",
+        "Archon": "<:archon:940042161997619200>",
+        "Unknown":"<:esoteric:940042201235341313>",
+        "default":"<:neutralized:940042256734359554>"
+    }
+}
