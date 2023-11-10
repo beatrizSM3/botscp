@@ -131,7 +131,7 @@ async function baseFunction(interactionDiscord, messageDiscord) {
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("random")
+    .setName("sp")
     .setDescription(
       "a random scp will be spawned, only authorized personnel may use this..."
     ),

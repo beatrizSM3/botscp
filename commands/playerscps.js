@@ -43,7 +43,7 @@ async function baseFunction(interactionDiscord,messageDiscord) {
 
 module.exports = {
     data: new SlashCommandBuilder()
-      .setName("playerscp")
+      .setName("scps")
       .setDescription("show player scp collection"),
   
     execute: async (interaction) => await baseFunction(interaction,undefined),

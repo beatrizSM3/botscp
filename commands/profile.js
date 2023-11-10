@@ -44,7 +44,7 @@ async function replyFunction(interactionDiscord, messageDiscord) {
 
 module.exports = { 
     data: new SlashCommandBuilder()
-            .setName("profile")
+            .setName("p")
             .setDescription("show profile of player"),
    
         execute: async (interaction) =>  await replyFunction(interaction, undefined),
