@@ -14,7 +14,7 @@ const Player = {
             console.error("Erro na chamada API:", error);
             console.log("Detalhes do erro:", error.response);
             return response.data
-            throw error; // Rejeita a promessa com o erro
+            //throw error; // Rejeita a promessa com o erro
         }
     },
     playerRank: async (qtd, fetchData= returnedData) => { //return player rank 
@@ -27,7 +27,7 @@ const Player = {
             console.error("Erro na chamada API:", error);
             console.log("Detalhes do erro:", error.response);
             return response.data
-            throw error; // Rejeita a promessa com o erro
+            //throw error; // Rejeita a promessa com o erro
         }
     },
     playerScps: async (playerDiscordId, playerGuildId, fetchData = returnedScpData) => { //return the scps of player
@@ -40,7 +40,7 @@ const Player = {
             console.error("Erro na chamada API:", error);
             console.log("Detalhes do erro:", error.response);
             return response.data
-            throw error; // Rejeita a promessa com o erro
+            //throw error; // Rejeita a promessa com o erro
         }
     },
     add: async (playerDiscordId, playerGuildId, name) => { //add new player
@@ -53,7 +53,7 @@ const Player = {
             console.error("Erro na chamada API:", error);
             console.log("Detalhes do erro:", error.response);
             return response.data
-            throw error; // Rejeita a promessa com o erro
+            //throw error; // Rejeita a promessa com o erro
         }
 
     },
@@ -67,7 +67,7 @@ const Player = {
             console.error("Erro na chamada API:", error);
             console.log("Detalhes do erro:", error.response);
             return response.data
-            throw error; // Rejeita a promessa com o erro
+            //throw error; // Rejeita a promessa com o erro
         }
 
     },
@@ -81,7 +81,7 @@ const Player = {
             console.error("Erro na chamada API:", error);
             console.log("Detalhes do erro:", error.response);
             return response.data
-            throw error; // Rejeita a promessa com o erro
+            //throw error; // Rejeita a promessa com o erro
         }
 
     },
@@ -95,7 +95,7 @@ const Player = {
             console.error("Erro na chamada API:", error);
             console.log("Detalhes do erro:", error.response);
             return response.data
-            throw error; // Rejeita a promessa com o erro
+            //throw error; // Rejeita a promessa com o erro
         }
     }
 }

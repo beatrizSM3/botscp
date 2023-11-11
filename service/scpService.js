@@ -1,6 +1,5 @@
 const {api} = require('./api')
 
-
 const returnedData = 'item, name, scpoints,image,claims, objectClass'
 
 const SCP =  {
@@ -12,7 +11,7 @@ const SCP =  {
     } catch (error) {
       console.error("Erro na chamada API:", error);
       console.log("Detalhes do erro:", error.response);
-      throw error; // Rejeita a promessa com o erro
+      //throw error; // Rejeita a promessa com o erro
     }
   },
   scpbyid: async (item, fetchData = returnedData) => { //return a scp by item ex: SCP-001
@@ -23,7 +22,7 @@ const SCP =  {
     } catch (error) {
       console.error("Erro na chamada API:", error);
       console.log("Detalhes do erro:", error.response);
-      throw error; // Rejeita a promessa com o erro
+      //throw error; // Rejeita a promessa com o erro
     }
   },
   scprank: async (qtd, fetchData = returnedData) => { //return scp ranking based in scpoints 
@@ -34,7 +33,7 @@ const SCP =  {
     } catch (error) {
       console.error("Erro na chamada API:", error);
       console.log("Detalhes do erro:", error.response);
-      throw error; // Rejeita a promessa com o erro
+      //throw error; // Rejeita a promessa com o erro
     }
   },
   updateclaim: async (scpItem, fetchData = returnedData) => { //update field claims in scp 
@@ -45,7 +44,7 @@ const SCP =  {
     } catch (error) {
       console.error("Erro na chamada API:", error);
       console.log("Detalhes do erro:", error.response);
-      throw error; // Rejeita a promessa com o erro
+      //throw error; // Rejeita a promessa com o erro
     }
   },
   random: async () => {
@@ -56,12 +55,12 @@ const SCP =  {
     } catch (error) {
       console.error("Erro na chamada API:", error);
       console.log("Detalhes do erro:", error.response);
-      throw error; // Rejeita a promessa com o erro
+      //throw error; // Rejeita a promessa com o erro
     }
   }
 }
 
-let teste = SCP.random()
-console.log(teste)
+// let teste = SCP.random()
+// console.log(teste)
 
 module.exports = {SCP}
